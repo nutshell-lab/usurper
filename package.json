@@ -1,0 +1,30 @@
+{
+  "name": "usurper",
+  "version": "1.0.0",
+  "description": "Usurp a user identity by checking a header presence",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nutshell-lab/usurper.git"
+  },
+  "keywords": [
+    "usurper",
+    "identity",
+    "login",
+    "user"
+  ],
+  "author": "Nutshell Lab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nutshell-lab/usurper/issues"
+  },
+  "homepage": "https://github.com/nutshell-lab/usurper#readme",
+  "devDependencies": {
+    "ava": "^3.8.2",
+    "tsd": "^0.11.0"
+  }
+}
