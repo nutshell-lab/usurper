@@ -1,5 +1,5 @@
 {
-  "name": "usurper",
+  "name": "@nutshelllab/usurper",
   "version": "1.0.0-0",
   "description": "Usurp a user identity by checking a header presence",
   "main": "index.js",
