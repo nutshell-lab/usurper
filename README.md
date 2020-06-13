@@ -19,8 +19,8 @@ const Usurper = require('usurper')
 //Optionnaly configure it
 Usurper.configure(options)
 
-const [success, identity] = Usurper(ctx.request.headers.authorization)
-const user = sucess && await findUser(identity)
+const [success, identity] = Usurper.usurp(ctx.request.headers.authorization)
+const user = sucess && await findUser(identity) // do anything you want with usurped user Id
 ```
 
 ## Options
