@@ -1,6 +1,6 @@
 {
   "name": "@nutshelllab/usurper",
-  "version": "1.0.0-2",
+  "version": "1.0.0-3",
   "description": "Usurp a user identity by checking a header presence",
   "main": "index.js",
   "types": "./index.d.ts",
