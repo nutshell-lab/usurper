@@ -6,8 +6,8 @@ const log = text => usurper.verbose && console.log(text)
 usurper.verbose = false
 usurper.disabled =
   process.env.USURPER_DISABLED === 'true'
-  || process.env.SLS_STAGE === 'dev'
-  || process.env.NODE_ENV === 'dev'
+  || process.env.SLS_STAGE === 'prod'
+  || process.env.NODE_ENV === 'production'
 
 usurper.isUsurping = token => !usurper.disabled && token.startsWith('usurp')
 
