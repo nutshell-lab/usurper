@@ -9,9 +9,9 @@ usurper.disabled =
   || process.env.SLS_STAGE === 'prod'
   || process.env.NODE_ENV === 'production'
 
-usurper.isUsurping = token => !usurper.disabled && token.startsWith('usurp')
+usurper.isUsurping = (token= '') => !usurper.disabled && token.startsWith('usurp')
 
-usurper.acquireTarget = token => {
+usurper.acquireTarget = (token = '') => {
   const parts = token.split('=')
   return parts[parts.length - 1]
 }

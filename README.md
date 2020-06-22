@@ -11,6 +11,15 @@ npm i usurper
 yarn add usurper
 ```
 
+__Expected pattern__
+
+Usurper will expect this pattern :
+```json
+{
+  "Authorization": "usurp=anyone@anything.watev"
+}
+```
+
 __Use it__
 
 ```js
