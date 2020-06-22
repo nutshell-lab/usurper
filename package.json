@@ -1,10 +1,13 @@
 {
   "name": "@nutshelllab/usurper",
-  "version": "1.0.0-3",
+  "version": "1.0.0-4",
   "description": "Usurp a user identity by checking a header presence",
   "main": "index.js",
   "types": "./index.d.ts",
-  "files": ["index.js", "index.d.ts"],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "ava"
   },
